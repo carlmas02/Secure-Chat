@@ -1,0 +1,21 @@
+.msgbody{
+    display: flex;
+    
+}
+
+.sent{
+    justify-content: flex-end;
+}
+
+
+.msg{
+
+    background-color: #d1d1e9;
+    padding: 0.3rem;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 0.2rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}

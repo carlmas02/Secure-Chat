@@ -1,0 +1,30 @@
+.chatttoggle{
+    min-height: 100vh;
+
+}
+
+
+.topChatToggle{
+    height: 15vh;
+    
+}
+
+.userNav{
+    display: flex;
+    justify-content: space-between;
+    height: 7.5vh;
+    border-bottom:1px solid black;
+}
+
+
+.searchUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bodyChatToggle{
+    height: 85vh;
+    overflow-y: scroll;
+}
