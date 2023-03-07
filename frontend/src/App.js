@@ -1,18 +1,20 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from './components/main/HomePage';
-import MainPage from './components/home/MainPage';
+import ChatPage from './components/ChatPage/ChatPage';
+import LoginPage from './components/LoginPage/LoginPage';
+import InfoPage from './components/InfoPage/InfoPage';
 
 function App() {
   return (
     <BrowserRouter>
 
           <Routes>
-            <Route path = '/' exact element = {<HomePage/>} />
+            <Route path = '/' exact element = {<ChatPage/>} />
+            
+            // set up routes such that - check users login status, if not logged in, take to info page.
+            <Route path = '/info' exact element = {<InfoPage />} />
 
-            <Route path='/home' exact element = {<MainPage/>} />
-            
-            
+            <Route path='/login' exact element = {<LoginPage/>} />
           </Routes>
       
     </BrowserRouter>

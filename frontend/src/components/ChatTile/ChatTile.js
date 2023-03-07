@@ -13,8 +13,6 @@ const ChatTile = () => {
           <h5 style={{fontWeight:700}} >Carl</h5>
         </div>
 
-        
-
     </div>
   )
 }

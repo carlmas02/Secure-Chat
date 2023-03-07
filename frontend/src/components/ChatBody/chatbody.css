@@ -1,0 +1,23 @@
+.chatBodyTop{
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.chatBodyMain{
+    overflow-y: scroll;
+    height: 83.5vh;
+}
+
+.footerInput{
+    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    gap :0.5rem;
+    align-items: center;
+    height: 9vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
