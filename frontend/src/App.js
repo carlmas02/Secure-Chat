@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ChatPage from './components/ChatPage/ChatPage';
 import LoginPage from './components/LoginPage/LoginPage';
 import InfoPage from './components/InfoPage/InfoPage';
+import SignUpPage from './components/signUpPage/signUpPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path = '/info' exact element = {<InfoPage />} />
 
             <Route path='/login' exact element = {<LoginPage/>} />
+            <Route path='/signup' exact element = {<SignUpPage/>} />
           </Routes>
       
     </BrowserRouter>

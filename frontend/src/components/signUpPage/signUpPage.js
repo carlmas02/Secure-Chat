@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const HomePage = () => {
+const SignUpPage = () => {
   return (
     <div className= 'container' >
         
@@ -17,29 +17,25 @@ const HomePage = () => {
             <div className='midHomeDiv' >
                 
                 <input placeholder='Username' />
+                <input type="email" placeholder='Email' />
                 <input type="password" placeholder='Password'  />
+                <input placeholder='Confirm Password'  />
 
                 <div className='button' >
                    <h6>
-                   Login
-                   </h6>
-                    
+                    Sign Up
+                   </h6>    
                 </div>
-
             </div>
 
             <div className='bottomHomeDiv'  >
                 <h6>
-                Don't have an account? <Link to="/signup" >Sign up</Link> 
+                    Already have an account? <Link to="/login" >Login</Link> 
                 </h6> 
             </div>
-
-        </div>
-
-
-        
+        </div>  
     </div>
   )
 }
 
-export default HomePage
+export default SignUpPage
